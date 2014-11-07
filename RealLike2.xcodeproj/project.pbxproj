@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3FAC4D191D42BD00F07E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FAC4C191D42BD00F07E0D /* Foundation.framework */; };
+		DD3FAC4F191D42BD00F07E0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FAC4E191D42BD00F07E0D /* CoreGraphics.framework */; };
+		DD3FAC51191D42BD00F07E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FAC50191D42BD00F07E0D /* UIKit.framework */; };
+		DD3FAC57191D42BD00F07E0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD3FAC55191D42BD00F07E0D /* InfoPlist.strings */; };
+		DD3FAC59191D42BD00F07E0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3FAC58191D42BD00F07E0D /* main.m */; };
+		DD3FAC5D191D42BD00F07E0D /* RLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3FAC5C191D42BD00F07E0D /* RLAppDelegate.m */; };
+		DD3FAC60191D42BD00F07E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3FAC5E191D42BD00F07E0D /* Main.storyboard */; };
+		DD3FAC63191D42BD00F07E0D /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3FAC62191D42BD00F07E0D /* RLViewController.m */; };
+		DD3FAC65191D42BD00F07E0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3FAC64191D42BD00F07E0D /* Images.xcassets */; };
+		DD3FAC6C191D42BD00F07E0D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FAC6B191D42BD00F07E0D /* XCTest.framework */; };
+		DD3FAC6D191D42BD00F07E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FAC4C191D42BD00F07E0D /* Foundation.framework */; };
+		DD3FAC6E191D42BD00F07E0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FAC50191D42BD00F07E0D /* UIKit.framework */; };
+		DD3FAC76191D42BD00F07E0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD3FAC74191D42BD00F07E0D /* InfoPlist.strings */; };
+		DD3FAC78191D42BD00F07E0D /* RealLike2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3FAC77191D42BD00F07E0D /* RealLike2Tests.m */; };
+		DD3FAC82191D43A900F07E0D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FAC81191D43A900F07E0D /* FacebookSDK.framework */; };
+		DD3FAC84191D43E200F07E0D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FAC83191D43E200F07E0D /* CoreLocation.framework */; };
+		DD9C3F1B19968B1D005E630D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C3F1A19968B1D005E630D /* CoreBluetooth.framework */; };
+		DD9C3F2019968B5B005E630D /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9C3F1E19968B5B005E630D /* Konashi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD3FAC6F191D42BD00F07E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD3FAC41191D42BD00F07E0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3FAC48191D42BD00F07E0D;
+			remoteInfo = RealLike2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD3FAC49191D42BD00F07E0D /* RealLike2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealLike2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3FAC4C191D42BD00F07E0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD3FAC4E191D42BD00F07E0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD3FAC50191D42BD00F07E0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD3FAC54191D42BD00F07E0D /* RealLike2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealLike2-Info.plist"; sourceTree = "<group>"; };
+		DD3FAC56191D42BD00F07E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD3FAC58191D42BD00F07E0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD3FAC5A191D42BD00F07E0D /* RealLike2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealLike2-Prefix.pch"; sourceTree = "<group>"; };
+		DD3FAC5B191D42BD00F07E0D /* RLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLAppDelegate.h; sourceTree = "<group>"; };
+		DD3FAC5C191D42BD00F07E0D /* RLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLAppDelegate.m; sourceTree = "<group>"; };
+		DD3FAC5F191D42BD00F07E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD3FAC61191D42BD00F07E0D /* RLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
+		DD3FAC62191D42BD00F07E0D /* RLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLViewController.m; sourceTree = "<group>"; };
+		DD3FAC64191D42BD00F07E0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD3FAC6A191D42BD00F07E0D /* RealLike2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealLike2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3FAC6B191D42BD00F07E0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD3FAC73191D42BD00F07E0D /* RealLike2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealLike2Tests-Info.plist"; sourceTree = "<group>"; };
+		DD3FAC75191D42BD00F07E0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD3FAC77191D42BD00F07E0D /* RealLike2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealLike2Tests.m; sourceTree = "<group>"; };
+		DD3FAC81191D43A900F07E0D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		DD3FAC83191D43E200F07E0D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DD9C3F1A19968B1D005E630D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DD9C3F1D19968B5B005E630D /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi.h; sourceTree = "<group>"; };
+		DD9C3F1E19968B5B005E630D /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi.m; sourceTree = "<group>"; };
+		DD9C3F1F19968B5B005E630D /* KonashiDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiDb.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD3FAC46191D42BD00F07E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9C3F1B19968B1D005E630D /* CoreBluetooth.framework in Frameworks */,
+				DD3FAC51191D42BD00F07E0D /* UIKit.framework in Frameworks */,
+				DD3FAC4D191D42BD00F07E0D /* Foundation.framework in Frameworks */,
+				DD3FAC4F191D42BD00F07E0D /* CoreGraphics.framework in Frameworks */,
+				DD3FAC84191D43E200F07E0D /* CoreLocation.framework in Frameworks */,
+				DD3FAC82191D43A900F07E0D /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FAC67191D42BD00F07E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FAC6C191D42BD00F07E0D /* XCTest.framework in Frameworks */,
+				DD3FAC6E191D42BD00F07E0D /* UIKit.framework in Frameworks */,
+				DD3FAC6D191D42BD00F07E0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3FAC40191D42BD00F07E0D = {
+			isa = PBXGroup;
+			children = (
+				DD9C3F1C19968B5B005E630D /* Konashi */,
+				DD3FAC52191D42BD00F07E0D /* RealLike2 */,
+				DD3FAC71191D42BD00F07E0D /* RealLike2Tests */,
+				DD3FAC4B191D42BD00F07E0D /* Frameworks */,
+				DD3FAC4A191D42BD00F07E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3FAC4A191D42BD00F07E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FAC49191D42BD00F07E0D /* RealLike2.app */,
+				DD3FAC6A191D42BD00F07E0D /* RealLike2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3FAC4B191D42BD00F07E0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C3F1A19968B1D005E630D /* CoreBluetooth.framework */,
+				DD3FAC83191D43E200F07E0D /* CoreLocation.framework */,
+				DD3FAC81191D43A900F07E0D /* FacebookSDK.framework */,
+				DD3FAC50191D42BD00F07E0D /* UIKit.framework */,
+				DD3FAC4C191D42BD00F07E0D /* Foundation.framework */,
+				DD3FAC4E191D42BD00F07E0D /* CoreGraphics.framework */,
+				DD3FAC6B191D42BD00F07E0D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3FAC52191D42BD00F07E0D /* RealLike2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FAC5B191D42BD00F07E0D /* RLAppDelegate.h */,
+				DD3FAC5C191D42BD00F07E0D /* RLAppDelegate.m */,
+				DD3FAC5E191D42BD00F07E0D /* Main.storyboard */,
+				DD3FAC61191D42BD00F07E0D /* RLViewController.h */,
+				DD3FAC62191D42BD00F07E0D /* RLViewController.m */,
+				DD3FAC64191D42BD00F07E0D /* Images.xcassets */,
+				DD3FAC53191D42BD00F07E0D /* Supporting Files */,
+			);
+			path = RealLike2;
+			sourceTree = "<group>";
+		};
+		DD3FAC53191D42BD00F07E0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FAC54191D42BD00F07E0D /* RealLike2-Info.plist */,
+				DD3FAC55191D42BD00F07E0D /* InfoPlist.strings */,
+				DD3FAC58191D42BD00F07E0D /* main.m */,
+				DD3FAC5A191D42BD00F07E0D /* RealLike2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD3FAC71191D42BD00F07E0D /* RealLike2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FAC77191D42BD00F07E0D /* RealLike2Tests.m */,
+				DD3FAC72191D42BD00F07E0D /* Supporting Files */,
+			);
+			path = RealLike2Tests;
+			sourceTree = "<group>";
+		};
+		DD3FAC72191D42BD00F07E0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FAC73191D42BD00F07E0D /* RealLike2Tests-Info.plist */,
+				DD3FAC74191D42BD00F07E0D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD9C3F1C19968B5B005E630D /* Konashi */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C3F1D19968B5B005E630D /* Konashi.h */,
+				DD9C3F1E19968B5B005E630D /* Konashi.m */,
+				DD9C3F1F19968B5B005E630D /* KonashiDb.h */,
+			);
+			path = Konashi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3FAC48191D42BD00F07E0D /* RealLike2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3FAC7B191D42BD00F07E0D /* Build configuration list for PBXNativeTarget "RealLike2" */;
+			buildPhases = (
+				DD3FAC45191D42BD00F07E0D /* Sources */,
+				DD3FAC46191D42BD00F07E0D /* Frameworks */,
+				DD3FAC47191D42BD00F07E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealLike2;
+			productName = RealLike2;
+			productReference = DD3FAC49191D42BD00F07E0D /* RealLike2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD3FAC69191D42BD00F07E0D /* RealLike2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3FAC7E191D42BD00F07E0D /* Build configuration list for PBXNativeTarget "RealLike2Tests" */;
+			buildPhases = (
+				DD3FAC66191D42BD00F07E0D /* Sources */,
+				DD3FAC67191D42BD00F07E0D /* Frameworks */,
+				DD3FAC68191D42BD00F07E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD3FAC70191D42BD00F07E0D /* PBXTargetDependency */,
+			);
+			name = RealLike2Tests;
+			productName = RealLike2Tests;
+			productReference = DD3FAC6A191D42BD00F07E0D /* RealLike2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD3FAC41191D42BD00F07E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = grasp;
+				TargetAttributes = {
+					DD3FAC69191D42BD00F07E0D = {
+						TestTargetID = DD3FAC48191D42BD00F07E0D;
+					};
+				};
+			};
+			buildConfigurationList = DD3FAC44191D42BD00F07E0D /* Build configuration list for PBXProject "RealLike2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD3FAC40191D42BD00F07E0D;
+			productRefGroup = DD3FAC4A191D42BD00F07E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3FAC48191D42BD00F07E0D /* RealLike2 */,
+				DD3FAC69191D42BD00F07E0D /* RealLike2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3FAC47191D42BD00F07E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FAC65191D42BD00F07E0D /* Images.xcassets in Resources */,
+				DD3FAC57191D42BD00F07E0D /* InfoPlist.strings in Resources */,
+				DD3FAC60191D42BD00F07E0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FAC68191D42BD00F07E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FAC76191D42BD00F07E0D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3FAC45191D42BD00F07E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FAC5D191D42BD00F07E0D /* RLAppDelegate.m in Sources */,
+				DD9C3F2019968B5B005E630D /* Konashi.m in Sources */,
+				DD3FAC59191D42BD00F07E0D /* main.m in Sources */,
+				DD3FAC63191D42BD00F07E0D /* RLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FAC66191D42BD00F07E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FAC78191D42BD00F07E0D /* RealLike2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD3FAC70191D42BD00F07E0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD3FAC48191D42BD00F07E0D /* RealLike2 */;
+			targetProxy = DD3FAC6F191D42BD00F07E0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD3FAC55191D42BD00F07E0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3FAC56191D42BD00F07E0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD3FAC5E191D42BD00F07E0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3FAC5F191D42BD00F07E0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD3FAC74191D42BD00F07E0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3FAC75191D42BD00F07E0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD3FAC79191D42BD00F07E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD3FAC7A191D42BD00F07E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD3FAC7C191D42BD00F07E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealLike2/RealLike2-Prefix.pch";
+				INFOPLIST_FILE = "RealLike2/RealLike2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD3FAC7D191D42BD00F07E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealLike2/RealLike2-Prefix.pch";
+				INFOPLIST_FILE = "RealLike2/RealLike2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD3FAC7F191D42BD00F07E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RealLike2.app/RealLike2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealLike2/RealLike2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RealLike2Tests/RealLike2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DD3FAC80191D42BD00F07E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RealLike2.app/RealLike2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealLike2/RealLike2-Prefix.pch";
+				INFOPLIST_FILE = "RealLike2Tests/RealLike2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD3FAC44191D42BD00F07E0D /* Build configuration list for PBXProject "RealLike2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3FAC79191D42BD00F07E0D /* Debug */,
+				DD3FAC7A191D42BD00F07E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3FAC7B191D42BD00F07E0D /* Build configuration list for PBXNativeTarget "RealLike2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3FAC7C191D42BD00F07E0D /* Debug */,
+				DD3FAC7D191D42BD00F07E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3FAC7E191D42BD00F07E0D /* Build configuration list for PBXNativeTarget "RealLike2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3FAC7F191D42BD00F07E0D /* Debug */,
+				DD3FAC80191D42BD00F07E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD3FAC41191D42BD00F07E0D /* Project object */;
+}
